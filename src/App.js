@@ -15,7 +15,7 @@ class App extends Component {
     super();
     this.state = {
       name: "React",
-      showHideWorkExperience: false,
+      showHideWorkExperience: true,
       showHideProjects: false,
       showInternship: false,
       showEducation: false,
