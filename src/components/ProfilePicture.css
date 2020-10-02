@@ -1,0 +1,27 @@
+.profile__picture {
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  pointer-events: none;
+  border-radius: 10%;
+}
+
+.name{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font: bold;
+  font-size: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.email__number{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+}

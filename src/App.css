@@ -1,0 +1,47 @@
+.app__left{
+  width: 30%;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  padding: 30px 30px;
+  padding-top: 50px;
+  position: absolute;
+  overflow: auto;
+  
+}
+
+.app{
+  height: 100vh;
+  width: 100%;
+}
+
+.app__right{
+  background-color: orange;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 70%;
+  padding: 35px;
+  overflow: auto;
+}
+
+.app__header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button__group{
+  margin-top: 10px;
+}
