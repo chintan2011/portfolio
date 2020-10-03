@@ -20,7 +20,7 @@ class Projects extends Component{
                     <ul className="projects_bullets">
                         <li>Portfolio website using React</li>
                         <li>Github: <a href="https://github.com/chintan2011/portfolio">https://github.com/chintan2011/portfolio</a></li>
-                        <li>Hosting on Google Cloud:&nbsp;<a href="https://portfolio-b3930.web.app/">https://portfolio-b3930.web.app/</a></li>
+                        <li>Hosting on Google Cloud:&nbsp;<a href="https://portfolio-491bd.web.app/">https://portfolio-491bd.web.app/</a></li>
                     </ul>
 
                     <div className="project__title">Resume - (JavaScript, React, React-BootStrap, HTML, and CSS)</div>
