@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Internship from "./components/Internship";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
+import Image from "./components/Image";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,11 +16,12 @@ class App extends Component {
     super();
     this.state = {
       name: "React",
-      showHideWorkExperience: true,
+      showHideWorkExperience: false,
       showHideProjects: false,
       showInternship: false,
       showEducation: false,
-      showSkills: false
+      showSkills: false,
+      showImage: true
     };
   }
   hideComponent(name) {
@@ -31,6 +33,7 @@ class App extends Component {
             this.setState({showInternship: false});
             this.setState({showEducation: false});
             this.setState({showSkills: false});
+            this.setState({showImage: false});
             break;
 
         case "showHideProjects":
@@ -39,6 +42,7 @@ class App extends Component {
             this.setState({showInternship: false});
             this.setState({showEducation: false});
             this.setState({showSkills: false});
+            this.setState({showImage: false});
             break;
 
         case "showInternship":
@@ -47,6 +51,7 @@ class App extends Component {
             this.setState({showHideWorkExperience: false});
             this.setState({showEducation: false});
             this.setState({showSkills: false});
+            this.setState({showImage: false});
             break;
         
         case "showEducation":
@@ -55,6 +60,7 @@ class App extends Component {
             this.setState({showHideWorkExperience: false});
             this.setState({showInternship: false});
             this.setState({showSkills: false});
+            this.setState({showImage: false});
             break;
         
         case "showSkills":
@@ -63,7 +69,17 @@ class App extends Component {
             this.setState({showHideWorkExperience: false});
             this.setState({showInternship: false});
             this.setState({showEducation: false});
+            this.setState({showImage: false});
           break;
+        
+        case "showImage":
+          this.setState({ showImage: !this.state.showImage });
+          this.setState({showHideProjects: false});
+          this.setState({showHideWorkExperience: false});
+          this.setState({showInternship: false});
+          this.setState({showEducation: false});
+          this.setState({showSkills: false});
+          break
 
         default:
           break
@@ -71,8 +87,8 @@ class App extends Component {
   }
 
   render() {
-    const { showHideWorkExperience, showHideProjects, showInternship, showEducation, showSkills} = this.state;
-
+    const { showHideWorkExperience, showHideProjects, showInternship, showEducation, showSkills, showImage} = this.state;
+    document.title = "Chintan Savalia"
     return (
       <div className="app">
         <div className="app__left">
@@ -117,6 +133,7 @@ class App extends Component {
           <SocialInfo />
         </div>
         <div className="app__right">
+          {showImage && <Image/>}
           {showHideWorkExperience && <WorkExperience />}
           {showInternship && <Internship/>}
           {showHideProjects && <Projects />}
