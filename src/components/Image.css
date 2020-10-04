@@ -1,7 +1,7 @@
 .rotate {
     margin-top: 70px;
     height: 40vmin;
-   
+    animation: rotation infinite 10s linear
 }
   
 @keyframes rotation {
@@ -21,4 +21,27 @@
 
 .images{
     height: 40vmin;
+}
+
+.react__image{
+    height: 40vmin;
+    animation: rotation infinite 10s linear;
+    margin-left: 85px;
+}
+
+.python__image{
+  height: 35vmin;
+  border-radius: 325px;
+  animation: rotation infinite 9s linear;
+  margin-left: 90px;
+}
+
+.js__image{
+  height: 45vmin;
+  animation: rotation infinite 9s linear
+}
+
+.github__image{
+  height: 35vmin;
+  animation: rotation infinite 10s linear
 }

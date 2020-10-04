@@ -9,9 +9,11 @@ class Image extends Component{
     render(){
         return(
             <div className="image__container">
-                <img src={reactImage} className="rotate" alt="reactImage" />
-                <img src={nodeImage} className="images" alt="reactImage" />
-                <img src={githubImage} className="images" alt="reactImage" />
+                <img src={reactImage} className="react__image" alt="reactImage" />
+                
+                {/* <img src={githubImage} className="github__image" alt="reactImage" /> */}
+                <img src={pythonImage} className="python__image" alt="reactImage"></img>
+                <img src={nodeImage} className="js__image" alt="reactImage" />
             </div>
         )
     }
