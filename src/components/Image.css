@@ -38,7 +38,7 @@
 
 .js__image{
   height: 45vmin;
-  animation: rotation infinite 9s linear
+  animation: rotation infinite 9s linear;
 }
 
 .github__image{

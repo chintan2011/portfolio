@@ -23,6 +23,19 @@ class Projects extends Component{
                         <li>Hosting on Google Cloud:&nbsp;<a href="https://portfolio-491bd.web.app/">https://portfolio-491bd.web.app/</a></li>
                     </ul>
 
+                    <div className="project__title">Covid-19-tracker - (Firebase, JavaScript, React, REST, HTML and CSS)</div>
+                    <ul className="projects_bullets">
+                        <li>Covid 19 cases, recovered, and deaths tracker using REST API in real-time</li>
+                        <li>Github: <a href="https://github.com/chintan2011/covid-19-tracker">https://github.com/chintan2011/covid-19-tracker</a></li>
+                        <li>Hosting on Google Cloud:&nbsp;<a href="https://covid-19-tracker-793bd.web.app/">https://covid-19-tracker-793bd.web.app/</a></li>
+                    </ul>
+
+                    <div className="project__title">LearnWithChintan - (Python, Django, Bootstrap, HTML and CSS)</div>
+                    <ul className="projects_bullets">
+                        <li>Blog using Python Django</li>
+                        <li>Github: <a href="https://github.com/chintan2011/learnWithChintan">https://github.com/chintan2011/learnWithChintan</a></li>
+                    </ul>
+
                     <div className="project__title">Resume - (JavaScript, React, React-BootStrap, HTML, and CSS)</div>
                     <ul className="projects_bullets">
                         <li>Resume website to get familiar with react components</li>
@@ -30,12 +43,7 @@ class Projects extends Component{
                         <li>Hosting on Heroku:&nbsp;<a href="https://desolate-oasis-05296.herokuapp.com/">https://desolate-oasis-05296.herokuapp.com/</a></li>
                     </ul>
     
-                    <div className="project__title">Covid-19-tracker - (Firebase, JavaScript, React, REST, HTML and CSS)</div>
-                    <ul className="projects_bullets">
-                        <li>Covid 19 cases, recovered, and deaths tracker using REST API in real-time</li>
-                        <li>Github: <a href="https://github.com/chintan2011/covid-19-tracker">https://github.com/chintan2011/covid-19-tracker</a></li>
-                        <li>Hosting on Google Cloud:&nbsp;<a href="https://covid-19-tracker-793bd.web.app/">https://covid-19-tracker-793bd.web.app/</a></li>
-                    </ul>
+                    
 
                     <div className="project__title">PusherPoll - (JavaScript, NodeJS, Express, Mongoose, Pusher, HTML and CSS)</div>
                     <ul className="projects_bullets">
@@ -76,7 +84,7 @@ class Projects extends Component{
                     <div className="project__title">JavaLearns - (Java)</div>
                     <ul className="projects_bullets">
                         <li>Java coding coding exercises for algorithms and data structures.</li>
-                        <li>Github: <a href="Java coding coding exercises for algorithms and data structures.">Java coding coding exercises for algorithms and data structures.</a></li>
+                        <li>Github: <a href="https://github.com/chintan2011/JavaLearns">https://github.com/chintan2011/JavaLearns</a></li>
                     </ul>
 
                     </Alert>
