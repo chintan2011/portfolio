@@ -16,32 +16,34 @@
 .image__container{
     text-align: center;
     margin: auto;
-    position: relative;
-}
-
-.images{
-    height: 40vmin;
+    position: absolute;
+    width: auto;
+    height: auto;
 }
 
 .react__image{
     height: 40vmin;
+    width: 50vmin;
+    border-radius: 50%;
     animation: rotation infinite 10s linear;
-    margin-left: 85px;
 }
 
 .python__image{
-  height: 35vmin;
-  border-radius: 325px;
+  height: 30vmin;
+  border-radius: 50%;
   animation: rotation infinite 9s linear;
-  margin-left: 90px;
+  
 }
 
 .js__image{
-  height: 45vmin;
+  height: 38vmin;
+  border-radius: 50%;
   animation: rotation infinite 9s linear;
 }
 
 .github__image{
-  height: 35vmin;
+  height: 25vmin;
+  border-radius: 80%;
+  margin-left: 95px;
   animation: rotation infinite 10s linear
 }

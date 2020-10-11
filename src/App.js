@@ -93,7 +93,6 @@ class App extends Component {
       <div className="app">
         <div className="app__left">
           <ProfilePicture />
-          <br></br>
 
           <Button variant="outline-primary"
             className="button__group"
