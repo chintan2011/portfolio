@@ -16,6 +16,13 @@ class Projects extends Component{
             <Alert variant="primary">
                     <Alert.Heading className="title">Projects</Alert.Heading>
 
+                    <div className="project__title">LearnWithChintan  - FrontEnd Focused - (JavaScript, React, React-BootStrap, HTML, and CSS)</div>
+                    <ul className="projects_bullets">
+                        <li>Blog using React providing solutions to issues I faced during software development</li>
+                        <li>Github: <a href="https://github.com/chintan2011/learnWithChintan">https://github.com/chintan2011/learnWithChintan</a></li>
+                        <li>Hosting on Google Cloud:&nbsp;<a href="https://learnwithchintan.web.app/">https://learnwithchintan.web.app</a></li>
+                    </ul>
+
                     <div className="project__title">Portfolio - (JavaScript, React, React-BootStrap, HTML, and CSS)</div>
                     <ul className="projects_bullets">
                         <li>Portfolio website using React</li>
@@ -30,7 +37,7 @@ class Projects extends Component{
                         <li>Hosting on Google Cloud:&nbsp;<a href="https://covid-19-tracker-793bd.web.app/">https://covid-19-tracker-793bd.web.app/</a></li>
                     </ul>
 
-                    <div className="project__title">LearnWithChintan - (Python, Django, Bootstrap, HTML and CSS)</div>
+                    <div className="project__title">LearnWithChintan - BackEnd Focused - (Python, Django, Bootstrap, HTML and CSS)</div>
                     <ul className="projects_bullets">
                         <li>Blog using Python Django</li>
                         <li>Github: <a href="https://github.com/chintan2011/learnWithChintan">https://github.com/chintan2011/learnWithChintan</a></li>
