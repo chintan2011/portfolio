@@ -19,7 +19,7 @@ class Projects extends Component{
                     <div className="project__title">LearnWithChintan  - FrontEnd Focused - (JavaScript, React, React-BootStrap, HTML, and CSS)</div>
                     <ul className="projects_bullets">
                         <li>Blog using React providing solutions to issues I faced during software development</li>
-                        <li>Github: <a href="https://github.com/chintan2011/learnWithChintan">https://github.com/chintan2011/learnWithChintan</a></li>
+                        <li>Github: <a href="https://github.com/chintan2011/learn-with-chintan">https://github.com/chintan2011/learn-with-chintan</a></li>
                         <li>Hosting on Google Cloud:&nbsp;<a href="https://learnwithchintan.web.app/">https://learnwithchintan.web.app</a></li>
                     </ul>
 
