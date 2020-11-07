@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import reactImage from '../logo.svg';
 import nodeImage from './nodejs.png'
 import pythonImage from './python.png'
-import githubImage from './github.png'
+//import githubImage from './github.png'
 import './Image.css'
 
 class Image extends Component{

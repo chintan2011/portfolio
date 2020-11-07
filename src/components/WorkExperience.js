@@ -24,11 +24,12 @@ class WorkExperience extends Component{
                         <h5>Software Test Engineer - Automation (May 2019 - Present)</h5>
                         <h6>Nokia - Ottawa, Ontario, Canada</h6>
                         <ul>
+                            <li>Improved efficiency of manual testing by developing internal tool for url encoding.</li>
                             <li>Responsible for maintaining and improving automated tests.</li>
                             <li>Taking ownership of Features and thoroughly testing them both manually and with automation.</li>
                             <li>Improved test execution timings by refactoring legacy code.</li>
                             <li>JavaScript, Selenium, Selenium Grid, NodeJS, OpenStack.</li>
-                            <li>Solved selenium webdriver version conflicts by suggesting to have a shared centralized cloud VM.</li>
+                            <li>Solved selenium webdriver version conflicts by suggesting to create a shared centralized cloud VM.</li>
                         </ul>
                     </p>
                     <p>
@@ -56,7 +57,7 @@ class WorkExperience extends Component{
                             scenarios through CICD (Continuous Integration Continuous Deployment).</li>
                             <li>Played major role in investigation of determining the restrictions of the possible cloud services solution.</li>
                             <li>Python, Jenkins, Robot Framework, Google Cloud Platform (GCP), Google Firebase, Kibana(Elasticsearch),
-                            Spanner(NoSQL Database), Gennymotion Cloud, Appium, REST api, Xcode, Adb (Android Debug Bridge)</li>
+                            Spanner(NoSQL Database), Gennymotion Cloud, Appium, REST api, Xcode, Adb (Android Debug Bridge).</li>
                         </ul>
                     </p>
                     <p>

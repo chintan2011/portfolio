@@ -10,6 +10,7 @@ import Skills from "./components/Skills";
 import Image from "./components/Image";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
+import PdfResume from "./chintan-savalia-resume.pdf";
 
 class App extends Component {
   constructor() {
@@ -88,7 +89,8 @@ class App extends Component {
 
   render() {
     const { showHideWorkExperience, showHideProjects, showInternship, showEducation, showSkills, showImage} = this.state;
-    document.title = "Chintan Savalia"
+    document.title = "Chintan Savalia";
+    
     return (
       <div className="app">
         <div className="app__left">
@@ -128,6 +130,12 @@ class App extends Component {
                 ()=> this.hideComponent("showSkills")
             }>
             Skills</Button>
+
+            <Button variant="outline-primary"
+            className="button__group"
+            href={PdfResume} target="Resume in PDF"
+            >
+            Resume in PDF</Button>
 
           <SocialInfo />
         </div>
