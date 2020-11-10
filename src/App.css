@@ -8,7 +8,6 @@
   padding-top: 50px;
   position: absolute;
   overflow: auto;
-  
 }
 
 .app{
@@ -43,4 +42,7 @@
 
 .button__group{
   margin-top: 10px;
+  justify-content: center;
+  text-overflow: clip;
+  word-wrap: break-word;
 }
