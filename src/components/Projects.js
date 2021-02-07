@@ -27,7 +27,7 @@ class Projects extends Component{
                     <ul className="projects_bullets">
                         <li>Portfolio website using React.</li>
                         <li>Github: <a href="https://github.com/chintan2011/portfolio">https://github.com/chintan2011/portfolio</a></li>
-                        <li>Hosting on Google Cloud:&nbsp;<a href="https://portfolio-491bd.web.app/">https://portfolio-491bd.web.app/</a></li>
+                        <li>Hosting on Google Cloud:&nbsp;<a href="https://chintansavalia-2a5ca.web.app">https://chintansavalia-2a5ca.web.app</a></li>
                     </ul>
 
                     <div className="project__title">Covid-19-tracker - (Firebase, JavaScript, React, REST, HTML and CSS)</div>
