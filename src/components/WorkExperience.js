@@ -21,7 +21,7 @@ class WorkExperience extends Component{
                 
                 <div className="experienceDetails">
                     <p>
-                        <h5>Software Test Engineer - Automation (May 2019 - Present)</h5>
+                        <h5>Software Engineer - Automation (May 2019 - Present)</h5>
                         <h6>Nokia - Ottawa, Ontario, Canada</h6>
                         <ul>
                             <li>Improved efficiency of manual testing by developing internal tool for url encoding.</li>
